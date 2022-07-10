@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/loginPage.css/login_style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header__login">
+        <figure>
+            <img src="./src/img/Logo-Kenzie.png" alt="kenzie-icon">
+        </figure>
+    </header>
+    <main class="login__page">
+        <form class="login__container" id="login-form">
+            <div class="modal__info">
+                <h1 class="info__page">Login</h1>
+            </div>
+            <label for="email"></label>
+            <input class="login__value" type="text" id="email" name="email" placeholder="Email" required minlength="4" >
+            <label for="email"></label>
+            <input class="login__value" type="password" id="password" name="password" placeholder="Password" required minlength="4" >
+            <button type="submit" class="submit__login">Log in</button>
+            <div class="register">
+                <a class="register__link" href="./src/pages/registerPage.html">Register</a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="footer__list">
+            <a class="links" href="/">KenzieWeb</a>
+            <span> | </span>
+            <a class="links" href="/">Direitos Reservados</a>
+        </div>
+    </footer>
+    <script type="module" src="./src/handlers/login.js"></script>
+</body>
+</html>

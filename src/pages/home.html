@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/homePage.css/homePage.css">
+    <title>Home</title>
+  <title>m2-entrega-blog-m2</title>
+</head>
+<body>
+    <header class="header__page">
+      <div class="profile">
+        <figure class="profile__figure">
+          <img class="profile__figure--img" src="https://cdn5.vectorstock.com/i/thumb-large/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg" alt="Anonymous  user">
+        </figure>
+        <h1 class="profile__userName">Anonymous</h1>
+      </div>
+      <div class="logo">
+        <img class="logo__img" src="../img/Logo-Kenzie.png" alt="Icon Kenzie">
+      </div>
+      <button class="login__out">Log out</button>
+    </header>
+    <main class="homePage">
+      <form class="post__form">
+        <span class="form__counter">0 / 250</span>
+        <input type="text" name="content" class="share__text" placeholder="Comente aqui seu dia ..." maxlength="250">
+        <button class="share__button">+</button>
+      </form>
+      <ul class="feed">
+        <li class="post">
+          <div class="post__header">
+            <div class="post__header--container">
+              <figure class="post__userPicture">
+                <img class="post__figure--img" src="https://cdn5.vectorstock.com/i/thumb-large/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg" alt="Anonymous  user">
+              </figure>
+              <h3 class="post__userName">Anonymous</h3>
+            </div>
+          </div>
+          <div class="post__text">
+            <p class="post__text--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe non unde possimus illo dolorem aliquid et a vel corporis minima quasi, facilis dicta rerum repellendus dolores consequuntur inventore vitae commodi.</p> 
+          </div>
+          <div class="post__date">
+            <span class="date">
+              08/072022
+            </span>
+          </div>
+          <div class="post__options">...
+            <button class="options edit">Edit</button>
+            <button class="options delete">Delete</button>
+          </div>
+        </li>
+        <li class="post">
+          <div class="post__header">
+            <div class="post__header--container">
+              <figure class="post__userPicture">
+                <img class="post__figure--img" src="https://cdn5.vectorstock.com/i/thumb-large/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.jpg" alt="Anonymous  user">
+              </figure>
+              <h3 class="post__userName">Anonymous</h3>
+            </div>
+          </div>
+          <div class="post__text">
+            <p class="post__text--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe non unde possimus illo dolorem aliquid et a vel corporis minima quasi, facilis dicta rerum repellendus dolores consequuntur inventore vitae commodi.</p> 
+          </div>
+          <div class="post__date">
+            <span class="date">
+              08/072022
+            </span>
+          </div>
+          <div class="post__options">...
+            <button class="options edit">Edit</button>
+            <button class="options delete">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script type="module" src="../handlers/home.js"></script>
+</body>
+</html>
